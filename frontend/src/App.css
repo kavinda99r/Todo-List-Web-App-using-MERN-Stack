@@ -1,0 +1,41 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 800;
+  color: #333;
+}
+
+.task-counts {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+  margin-bottom: 20px; 
+  font-size: 1.1rem;
+  color: #333; 
+}
+
+.total-task{
+  background-color: rgb(37, 113, 168);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+
+.completed-task{
+  background-color: rgb(37, 168, 89);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+
+}
